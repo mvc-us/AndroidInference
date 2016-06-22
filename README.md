@@ -1,5 +1,20 @@
 # AndroidInference
 
-The version on this repository is no longer supported.
+This Android app is part of a user study done at UC Berkeley to understand smartphone sensors and their privacy implications.
+This repository provides the framework for sensor collection; a separate repository is used for processing the collected data.
+In it's current state, the Android app collects the following:
 
-Contact <a href="https://github.com/io-reyes">Irwin Reyes</a> or <a href="https://github.com/safi-manar">Manar Safi</a> for code support and/or more information.
+- Accelerometer
+- Gyroscope
+- Light Sensor
+- Rotation Sensor (pseudo-sensor)
+- Step Sensor
+- Magnetometer
+- Battery State
+- GPS
+- Screen on/off events
+- Proximity Sensor
+
+TODO
+-----
+- Log intents throughout system
